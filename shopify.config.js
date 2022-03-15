@@ -1,5 +1,6 @@
 export default {
-  storeDomain: 'hydrogen-preview.myshopify.com',
-  storefrontToken: '3b580e70970c4528da70c98e097c2fa0',
-  storefrontApiVersion: '2022-04',
-};
+	storeDomain: 'nmbnyc.myshopify.com',
+	storefrontToken: '25a69b58e68a7aa196b0035c5fadcd4a',
+	storefrontApiVersion: '2022-04',
+}
+// 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 admin api access token

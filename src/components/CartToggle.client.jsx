@@ -1,5 +1,5 @@
 import {useCartUI} from './CartUIProvider.client';
-import CartIconWithItems from './CartIconWithItems.client';
+import CartIcon from './CartIcon';
 
 /**
  * A client component that defines the behavior when a user toggles a cart
@@ -23,7 +23,7 @@ export default function CartToggle({handleClick}) {
         handleClick();
       }}
     >
-      <CartIconWithItems />
+      <CartIcon />
       <span className="sr-only">Open cart</span>
     </button>
   );

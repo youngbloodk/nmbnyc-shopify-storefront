@@ -1,4 +1,4 @@
-import {useShopQuery, Seo, CacheDays} from '@shopify/hydrogen';
+import {useShopQuery, Seo, CacheDays, Image} from '@shopify/hydrogen';
 import {HomeSeoFragment} from '@shopify/hydrogen/fragments';
 import gql from 'graphql-tag';
 
@@ -11,7 +11,12 @@ export default function Index() {
       <Suspense fallback={null}>
         <SeoForHomepage />
       </Suspense>
-      <div className="relative mb-12"></div>
+      <Image
+        src="/nmb_new_york_750x.png"
+        className="fixed top-0 h-full w-full object-cover"
+        width="auto"
+        height="auto"
+      />
     </Layout>
   );
 }
